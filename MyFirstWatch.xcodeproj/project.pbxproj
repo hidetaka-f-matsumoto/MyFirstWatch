@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043781411BB62649004FF65E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043781401BB62649004FF65E /* AppDelegate.swift */; };
+		043781431BB62649004FF65E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043781421BB62649004FF65E /* ViewController.swift */; };
+		043781461BB62649004FF65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043781441BB62649004FF65E /* Main.storyboard */; };
+		043781481BB62649004FF65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043781471BB62649004FF65E /* Assets.xcassets */; };
+		0437814B1BB62649004FF65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043781491BB62649004FF65E /* LaunchScreen.storyboard */; };
+		043781561BB62649004FF65E /* MyFirstWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043781551BB62649004FF65E /* MyFirstWatchTests.swift */; };
+		043781611BB62649004FF65E /* MyFirstWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043781601BB62649004FF65E /* MyFirstWatchUITests.swift */; };
+		043781661BB62649004FF65E /* MyFirstWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 043781651BB62649004FF65E /* MyFirstWatch WatchKit App.app */; };
+		0437816C1BB62649004FF65E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437816A1BB62649004FF65E /* Interface.storyboard */; };
+		0437816E1BB62649004FF65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437816D1BB62649004FF65E /* Assets.xcassets */; };
+		043781751BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 043781741BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0437817C1BB62649004FF65E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437817B1BB62649004FF65E /* InterfaceController.swift */; };
+		0437817E1BB62649004FF65E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437817D1BB62649004FF65E /* ExtensionDelegate.swift */; };
+		043781801BB62649004FF65E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437817F1BB62649004FF65E /* NotificationController.swift */; };
+		043781821BB62649004FF65E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043781811BB62649004FF65E /* GlanceController.swift */; };
+		043781841BB62649004FF65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043781831BB62649004FF65E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043781521BB62649004FF65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043781351BB62649004FF65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0437813C1BB62649004FF65E;
+			remoteInfo = MyFirstWatch;
+		};
+		0437815D1BB62649004FF65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043781351BB62649004FF65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0437813C1BB62649004FF65E;
+			remoteInfo = MyFirstWatch;
+		};
+		043781671BB62649004FF65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043781351BB62649004FF65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043781641BB62649004FF65E;
+			remoteInfo = "MyFirstWatch WatchKit App";
+		};
+		043781761BB62649004FF65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043781351BB62649004FF65E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043781731BB62649004FF65E;
+			remoteInfo = "MyFirstWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0437818B1BB62649004FF65E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				043781751BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437818F1BB62649004FF65E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				043781661BB62649004FF65E /* MyFirstWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0437813D1BB62649004FF65E /* MyFirstWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043781401BB62649004FF65E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043781421BB62649004FF65E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043781451BB62649004FF65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043781471BB62649004FF65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0437814A1BB62649004FF65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0437814C1BB62649004FF65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043781511BB62649004FF65E /* MyFirstWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043781551BB62649004FF65E /* MyFirstWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWatchTests.swift; sourceTree = "<group>"; };
+		043781571BB62649004FF65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0437815C1BB62649004FF65E /* MyFirstWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043781601BB62649004FF65E /* MyFirstWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstWatchUITests.swift; sourceTree = "<group>"; };
+		043781621BB62649004FF65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043781651BB62649004FF65E /* MyFirstWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFirstWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437816B1BB62649004FF65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0437816D1BB62649004FF65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0437816F1BB62649004FF65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043781741BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyFirstWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437817A1BB62649004FF65E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0437817B1BB62649004FF65E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0437817D1BB62649004FF65E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0437817F1BB62649004FF65E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		043781811BB62649004FF65E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		043781831BB62649004FF65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043781851BB62649004FF65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0437813A1BB62649004FF65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437814E1BB62649004FF65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781591BB62649004FF65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781711BB62649004FF65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043781341BB62649004FF65E = {
+			isa = PBXGroup;
+			children = (
+				0437813F1BB62649004FF65E /* MyFirstWatch */,
+				043781541BB62649004FF65E /* MyFirstWatchTests */,
+				0437815F1BB62649004FF65E /* MyFirstWatchUITests */,
+				043781691BB62649004FF65E /* MyFirstWatch WatchKit App */,
+				043781781BB62649004FF65E /* MyFirstWatch WatchKit Extension */,
+				0437813E1BB62649004FF65E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0437813E1BB62649004FF65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0437813D1BB62649004FF65E /* MyFirstWatch.app */,
+				043781511BB62649004FF65E /* MyFirstWatchTests.xctest */,
+				0437815C1BB62649004FF65E /* MyFirstWatchUITests.xctest */,
+				043781651BB62649004FF65E /* MyFirstWatch WatchKit App.app */,
+				043781741BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0437813F1BB62649004FF65E /* MyFirstWatch */ = {
+			isa = PBXGroup;
+			children = (
+				043781401BB62649004FF65E /* AppDelegate.swift */,
+				043781421BB62649004FF65E /* ViewController.swift */,
+				043781441BB62649004FF65E /* Main.storyboard */,
+				043781471BB62649004FF65E /* Assets.xcassets */,
+				043781491BB62649004FF65E /* LaunchScreen.storyboard */,
+				0437814C1BB62649004FF65E /* Info.plist */,
+			);
+			path = MyFirstWatch;
+			sourceTree = "<group>";
+		};
+		043781541BB62649004FF65E /* MyFirstWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				043781551BB62649004FF65E /* MyFirstWatchTests.swift */,
+				043781571BB62649004FF65E /* Info.plist */,
+			);
+			path = MyFirstWatchTests;
+			sourceTree = "<group>";
+		};
+		0437815F1BB62649004FF65E /* MyFirstWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043781601BB62649004FF65E /* MyFirstWatchUITests.swift */,
+				043781621BB62649004FF65E /* Info.plist */,
+			);
+			path = MyFirstWatchUITests;
+			sourceTree = "<group>";
+		};
+		043781691BB62649004FF65E /* MyFirstWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0437816A1BB62649004FF65E /* Interface.storyboard */,
+				0437816D1BB62649004FF65E /* Assets.xcassets */,
+				0437816F1BB62649004FF65E /* Info.plist */,
+			);
+			path = "MyFirstWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		043781781BB62649004FF65E /* MyFirstWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0437817B1BB62649004FF65E /* InterfaceController.swift */,
+				0437817D1BB62649004FF65E /* ExtensionDelegate.swift */,
+				0437817F1BB62649004FF65E /* NotificationController.swift */,
+				043781811BB62649004FF65E /* GlanceController.swift */,
+				043781831BB62649004FF65E /* Assets.xcassets */,
+				043781851BB62649004FF65E /* Info.plist */,
+				043781791BB62649004FF65E /* Supporting Files */,
+			);
+			path = "MyFirstWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		043781791BB62649004FF65E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0437817A1BB62649004FF65E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0437813C1BB62649004FF65E /* MyFirstWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043781901BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch" */;
+			buildPhases = (
+				043781391BB62649004FF65E /* Sources */,
+				0437813A1BB62649004FF65E /* Frameworks */,
+				0437813B1BB62649004FF65E /* Resources */,
+				0437818F1BB62649004FF65E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043781681BB62649004FF65E /* PBXTargetDependency */,
+			);
+			name = MyFirstWatch;
+			productName = MyFirstWatch;
+			productReference = 0437813D1BB62649004FF65E /* MyFirstWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043781501BB62649004FF65E /* MyFirstWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043781931BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatchTests" */;
+			buildPhases = (
+				0437814D1BB62649004FF65E /* Sources */,
+				0437814E1BB62649004FF65E /* Frameworks */,
+				0437814F1BB62649004FF65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043781531BB62649004FF65E /* PBXTargetDependency */,
+			);
+			name = MyFirstWatchTests;
+			productName = MyFirstWatchTests;
+			productReference = 043781511BB62649004FF65E /* MyFirstWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0437815B1BB62649004FF65E /* MyFirstWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043781961BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatchUITests" */;
+			buildPhases = (
+				043781581BB62649004FF65E /* Sources */,
+				043781591BB62649004FF65E /* Frameworks */,
+				0437815A1BB62649004FF65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0437815E1BB62649004FF65E /* PBXTargetDependency */,
+			);
+			name = MyFirstWatchUITests;
+			productName = MyFirstWatchUITests;
+			productReference = 0437815C1BB62649004FF65E /* MyFirstWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		043781641BB62649004FF65E /* MyFirstWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0437818C1BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch WatchKit App" */;
+			buildPhases = (
+				043781631BB62649004FF65E /* Resources */,
+				0437818B1BB62649004FF65E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043781771BB62649004FF65E /* PBXTargetDependency */,
+			);
+			name = "MyFirstWatch WatchKit App";
+			productName = "MyFirstWatch WatchKit App";
+			productReference = 043781651BB62649004FF65E /* MyFirstWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		043781731BB62649004FF65E /* MyFirstWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043781881BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch WatchKit Extension" */;
+			buildPhases = (
+				043781701BB62649004FF65E /* Sources */,
+				043781711BB62649004FF65E /* Frameworks */,
+				043781721BB62649004FF65E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFirstWatch WatchKit Extension";
+			productName = "MyFirstWatch WatchKit Extension";
+			productReference = 043781741BB62649004FF65E /* MyFirstWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043781351BB62649004FF65E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hidetaka Matsumoto";
+				TargetAttributes = {
+					0437813C1BB62649004FF65E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					043781501BB62649004FF65E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0437813C1BB62649004FF65E;
+					};
+					0437815B1BB62649004FF65E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0437813C1BB62649004FF65E;
+					};
+					043781641BB62649004FF65E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					043781731BB62649004FF65E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 043781381BB62649004FF65E /* Build configuration list for PBXProject "MyFirstWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043781341BB62649004FF65E;
+			productRefGroup = 0437813E1BB62649004FF65E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0437813C1BB62649004FF65E /* MyFirstWatch */,
+				043781501BB62649004FF65E /* MyFirstWatchTests */,
+				0437815B1BB62649004FF65E /* MyFirstWatchUITests */,
+				043781641BB62649004FF65E /* MyFirstWatch WatchKit App */,
+				043781731BB62649004FF65E /* MyFirstWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0437813B1BB62649004FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437814B1BB62649004FF65E /* LaunchScreen.storyboard in Resources */,
+				043781481BB62649004FF65E /* Assets.xcassets in Resources */,
+				043781461BB62649004FF65E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437814F1BB62649004FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437815A1BB62649004FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781631BB62649004FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437816E1BB62649004FF65E /* Assets.xcassets in Resources */,
+				0437816C1BB62649004FF65E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781721BB62649004FF65E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043781841BB62649004FF65E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043781391BB62649004FF65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043781431BB62649004FF65E /* ViewController.swift in Sources */,
+				043781411BB62649004FF65E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437814D1BB62649004FF65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043781561BB62649004FF65E /* MyFirstWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781581BB62649004FF65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043781611BB62649004FF65E /* MyFirstWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043781701BB62649004FF65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043781801BB62649004FF65E /* NotificationController.swift in Sources */,
+				0437817E1BB62649004FF65E /* ExtensionDelegate.swift in Sources */,
+				0437817C1BB62649004FF65E /* InterfaceController.swift in Sources */,
+				043781821BB62649004FF65E /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043781531BB62649004FF65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0437813C1BB62649004FF65E /* MyFirstWatch */;
+			targetProxy = 043781521BB62649004FF65E /* PBXContainerItemProxy */;
+		};
+		0437815E1BB62649004FF65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0437813C1BB62649004FF65E /* MyFirstWatch */;
+			targetProxy = 0437815D1BB62649004FF65E /* PBXContainerItemProxy */;
+		};
+		043781681BB62649004FF65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043781641BB62649004FF65E /* MyFirstWatch WatchKit App */;
+			targetProxy = 043781671BB62649004FF65E /* PBXContainerItemProxy */;
+		};
+		043781771BB62649004FF65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043781731BB62649004FF65E /* MyFirstWatch WatchKit Extension */;
+			targetProxy = 043781761BB62649004FF65E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043781441BB62649004FF65E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043781451BB62649004FF65E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043781491BB62649004FF65E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437814A1BB62649004FF65E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0437816A1BB62649004FF65E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437816B1BB62649004FF65E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043781861BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043781871BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043781891BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MyFirstWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0437818A1BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MyFirstWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0437818D1BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MyFirstWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MyFirstWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0437818E1BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = MyFirstWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MyFirstWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		043781911BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFirstWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043781921BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFirstWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		043781941BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFirstWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstWatch.app/MyFirstWatch";
+			};
+			name = Debug;
+		};
+		043781951BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFirstWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstWatch.app/MyFirstWatch";
+			};
+			name = Release;
+		};
+		043781971BB62649004FF65E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFirstWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFirstWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		043781981BB62649004FF65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFirstWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hidetaka.f.matsumoto.MyFirstWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFirstWatch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043781381BB62649004FF65E /* Build configuration list for PBXProject "MyFirstWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043781861BB62649004FF65E /* Debug */,
+				043781871BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043781881BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043781891BB62649004FF65E /* Debug */,
+				0437818A1BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0437818C1BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0437818D1BB62649004FF65E /* Debug */,
+				0437818E1BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043781901BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043781911BB62649004FF65E /* Debug */,
+				043781921BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043781931BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043781941BB62649004FF65E /* Debug */,
+				043781951BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043781961BB62649004FF65E /* Build configuration list for PBXNativeTarget "MyFirstWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043781971BB62649004FF65E /* Debug */,
+				043781981BB62649004FF65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043781351BB62649004FF65E /* Project object */;
+}
